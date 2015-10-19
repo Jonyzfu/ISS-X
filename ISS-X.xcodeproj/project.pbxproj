@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C6991F1BD2C566007090A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6991E1BD2C566007090A7 /* main.m */; };
+		88C699221BD2C566007090A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C699211BD2C566007090A7 /* AppDelegate.m */; };
+		88C699281BD2C566007090A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C699261BD2C566007090A7 /* Main.storyboard */; };
+		88C699361BD2C6F7007090A7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C699351BD2C6F7007090A7 /* MapViewController.m */; settings = {ASSET_TAGS = (); }; };
+		88C699381BD2D1F4007090A7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C699371BD2D1F4007090A7 /* MapKit.framework */; };
+		88C6993E1BD3096A007090A7 /* ISSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C6993D1BD3096A007090A7 /* ISSLocation.m */; settings = {ASSET_TAGS = (); }; };
+		88C699401BD323D7007090A7 /* iss.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C6993F1BD323D7007090A7 /* iss.png */; settings = {ASSET_TAGS = (); }; };
+		88F4B2811BD33DCB00A48353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F4B2801BD33DCB00A48353 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88C6991A1BD2C566007090A7 /* ISS-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C6991E1BD2C566007090A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88C699201BD2C566007090A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C699211BD2C566007090A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C699271BD2C566007090A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C6992E1BD2C566007090A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C699341BD2C6F7007090A7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		88C699351BD2C6F7007090A7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		88C699371BD2D1F4007090A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		88C6993C1BD3096A007090A7 /* ISSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSLocation.h; sourceTree = "<group>"; };
+		88C6993D1BD3096A007090A7 /* ISSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSLocation.m; sourceTree = "<group>"; };
+		88C6993F1BD323D7007090A7 /* iss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iss.png; sourceTree = "<group>"; };
+		88F4B2801BD33DCB00A48353 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C699171BD2C566007090A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C699381BD2D1F4007090A7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C699111BD2C565007090A7 = {
+			isa = PBXGroup;
+			children = (
+				88C6991C1BD2C566007090A7 /* ISS-X */,
+				88C6991B1BD2C566007090A7 /* Products */,
+				88C6993A1BD2D247007090A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88C6991B1BD2C566007090A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C6991A1BD2C566007090A7 /* ISS-X.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C6991C1BD2C566007090A7 /* ISS-X */ = {
+			isa = PBXGroup;
+			children = (
+				88C6993B1BD3094E007090A7 /* Model */,
+				88C699201BD2C566007090A7 /* AppDelegate.h */,
+				88C699211BD2C566007090A7 /* AppDelegate.m */,
+				88C699341BD2C6F7007090A7 /* MapViewController.h */,
+				88C699351BD2C6F7007090A7 /* MapViewController.m */,
+				88C699261BD2C566007090A7 /* Main.storyboard */,
+				88C6992E1BD2C566007090A7 /* Info.plist */,
+				88C699411BD323E2007090A7 /* Images */,
+				88F4B2801BD33DCB00A48353 /* Images.xcassets */,
+				88C6991D1BD2C566007090A7 /* Supporting Files */,
+			);
+			path = "ISS-X";
+			sourceTree = "<group>";
+		};
+		88C6991D1BD2C566007090A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C6991E1BD2C566007090A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88C6993A1BD2D247007090A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C699371BD2D1F4007090A7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88C6993B1BD3094E007090A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88C6993C1BD3096A007090A7 /* ISSLocation.h */,
+				88C6993D1BD3096A007090A7 /* ISSLocation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		88C699411BD323E2007090A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88C6993F1BD323D7007090A7 /* iss.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C699191BD2C566007090A7 /* ISS-X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C699311BD2C566007090A7 /* Build configuration list for PBXNativeTarget "ISS-X" */;
+			buildPhases = (
+				88C699161BD2C566007090A7 /* Sources */,
+				88C699171BD2C566007090A7 /* Frameworks */,
+				88C699181BD2C566007090A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISS-X";
+			productName = "ISS-X";
+			productReference = 88C6991A1BD2C566007090A7 /* ISS-X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C699121BD2C565007090A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jony Fu";
+				TargetAttributes = {
+					88C699191BD2C566007090A7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 88C699151BD2C565007090A7 /* Build configuration list for PBXProject "ISS-X" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C699111BD2C565007090A7;
+			productRefGroup = 88C6991B1BD2C566007090A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C699191BD2C566007090A7 /* ISS-X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C699181BD2C566007090A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C699401BD323D7007090A7 /* iss.png in Resources */,
+				88F4B2811BD33DCB00A48353 /* Images.xcassets in Resources */,
+				88C699281BD2C566007090A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C699161BD2C566007090A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C699221BD2C566007090A7 /* AppDelegate.m in Sources */,
+				88C6991F1BD2C566007090A7 /* main.m in Sources */,
+				88C6993E1BD3096A007090A7 /* ISSLocation.m in Sources */,
+				88C699361BD2C6F7007090A7 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88C699261BD2C566007090A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C699271BD2C566007090A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C6992F1BD2C566007090A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88C699301BD2C566007090A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C699321BD2C566007090A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ISS-X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonyzfu.ISS-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88C699331BD2C566007090A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ISS-X/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonyzfu.ISS-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C699151BD2C565007090A7 /* Build configuration list for PBXProject "ISS-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C6992F1BD2C566007090A7 /* Debug */,
+				88C699301BD2C566007090A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C699311BD2C566007090A7 /* Build configuration list for PBXNativeTarget "ISS-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C699321BD2C566007090A7 /* Debug */,
+				88C699331BD2C566007090A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C699121BD2C565007090A7 /* Project object */;
+}
